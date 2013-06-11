@@ -1,0 +1,650 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<export version="R5#1.2">
+	<product id='1'>
+	<pkey>AFR1</pkey>
+	<planningPokerGameType>0</planningPokerGameType>
+	<startDate>2012-08-15 00:00:00</startDate>
+	<endDate>2012-11-13 00:00:00</endDate>
+	<lastUpdated>2012-08-15 14:21:14</lastUpdated>
+	<dateCreated>2012-08-15 14:15:23</dateCreated>
+	<name><![CDATA[AFR Release1]]></name>
+	<description/>
+	<preferences>
+		<hidden>false</hidden>
+		<url></url>
+		<noEstimation>false</noEstimation>
+		<autoDoneStory>false</autoDoneStory>
+		<displayRecurrentTasks>true</displayRecurrentTasks>
+		<displayUrgentTasks>true</displayUrgentTasks>
+		<assignOnCreateTask>false</assignOnCreateTask>
+		<assignOnBeginTask>true</assignOnBeginTask>
+		<autoCreateTaskOnEmptyStory>false</autoCreateTaskOnEmptyStory>
+		<limitUrgentTasks>0</limitUrgentTasks>
+		<estimatedSprintsDuration>14</estimatedSprintsDuration>
+		<hideWeekend>true</hideWeekend>
+		<sprintPlanningHour>8:00</sprintPlanningHour>
+		<releasePlanningHour>12:00</releasePlanningHour>
+		<dailyMeetingHour>11:00</dailyMeetingHour>
+		<sprintReviewHour>14:00</sprintReviewHour>
+		<sprintRetrospectiveHour>16:00</sprintRetrospectiveHour>
+		<timezone>Europe/Berlin</timezone>
+	</preferences>
+	<teams>
+
+		<team uid='924dfd58eff48db66877abf2924e11c6'>
+			<velocity>0</velocity>
+			<dateCreated>2012-08-15 14:15:23</dateCreated>
+			<name><![CDATA[AFR Release1 team 2012-08-15 14:15:23.087]]></name>
+			<description/>
+			<preferences>
+				<allowNewMembers>false</allowNewMembers>
+			</preferences>
+			<members>
+				<user uid='8727684d5d11b608d4e6ebe971c03e8e'>
+					<id>1</id>
+					<username>admin</username>
+					<password>3e6b337110b9b5758380e9e44850f9fd6ad16f29da8655ab7ea52022015bf448</password>
+					<email>admin@icescrum.com</email>
+					<dateCreated>2012-08-15 13:53:37</dateCreated>
+					<enabled>true</enabled>
+					<accountExpired>false</accountExpired>
+					<accountLocked>false</accountLocked>
+					<passwordExpired>false</passwordExpired>
+					<accountExternal>false</accountExternal>
+					<lastName><![CDATA[Admin]]></lastName>
+					<firstName><![CDATA[--]]></firstName>
+					<preferences>
+						<language>en</language>
+						<activity></activity>
+						<filterTask>allTasks</filterTask>
+						<menu>[project:1, sprintPlan:6, releasePlan:5, backlog:3, sandbox:2, timeline:4]</menu>
+						<menuHidden>[feature:2, actor:1]</menuHidden>
+						<hideDoneState>false</hideDoneState>
+					</preferences>
+					<teams>
+						<team uid='924dfd58eff48db66877abf2924e11c6'/>
+					</teams>
+				</user>
+			</members>
+			<scrumMasters>
+				<scrumMaster uid='8727684d5d11b608d4e6ebe971c03e8e'/>
+			</scrumMasters>
+		</team>
+	</teams>
+	<releases>
+		<release id='2'>
+			<state>2</state>
+			<releaseVelocity>0.0</releaseVelocity>
+			<endDate>2012-11-13 00:00:00</endDate>
+			<startDate>2012-08-15 00:00:00</startDate>
+			<orderNumber>1</orderNumber>
+			<lastUpdated>2012-08-15 14:19:19</lastUpdated>
+			<dateCreated>2012-08-15 14:15:24</dateCreated>
+			<name><![CDATA[R1]]></name>
+			<vision/>
+			<description/>
+			<goal/>
+			<sprints>
+				<sprint id='3'>
+					<state>3</state>
+					<dailyWorkTime>8.0</dailyWorkTime>
+					<velocity>5.0</velocity>
+					<capacity>0.0</capacity>
+					<resource/>
+					<endDate>2012-08-28 00:00:00</endDate>
+					<startDate>2012-08-15 00:00:00</startDate>
+					<orderNumber>1</orderNumber>
+					<activationDate>2012-08-15 14:17:33</activationDate>
+					<closeDate>2012-08-15 14:19:09</closeDate>
+					<lastUpdated>2012-08-15 14:19:09</lastUpdated>
+					<dateCreated>2012-08-15 14:15:24</dateCreated>
+					<retrospective/>
+					<doneDefinition/>
+					<description/>
+					<goal><![CDATA[Generated Sprint]]></goal>
+					<tasks>
+						<task uid='1'>
+							<estimation>8.0</estimation>
+							<type>10</type>
+							<state>0</state>
+							<rank>1</rank>
+							<creationDate>2012-08-15 14:18:00</creationDate>
+							<inProgressDate/>
+							<doneDate/>
+							<blocked>false</blocked>
+							<color>yellow</color>
+							<name><![CDATA[Task todo]]></name>
+							<description/>
+							<notes/>
+							<creator uid='8727684d5d11b608d4e6ebe971c03e8e'/>
+							<responsible />
+							<attachments/>
+						</task>
+					</tasks>
+					<stories>
+
+						<story uid='5'>
+							<state>7</state>
+							<suggestedDate>2012-08-15 14:16:34</suggestedDate>
+							<acceptedDate>2012-08-15 14:17:04</acceptedDate>
+							<estimatedDate>2012-08-15 14:17:19</estimatedDate>
+							<plannedDate>2012-08-15 14:17:39</plannedDate>
+							<inProgressDate>2012-08-15 14:17:39</inProgressDate>
+							<doneDate>2012-08-15 14:18:54</doneDate>
+							<effort>5</effort>
+							<value>0</value>
+							<rank>1</rank>
+							<creationDate>2012-08-15 14:16:34</creationDate>
+							<type>0</type>
+							<executionFrequency>1</executionFrequency>
+							<name><![CDATA[Story Closed]]></name>
+							<textAs/>
+							<textICan/>
+							<textTo/>
+							<notes/>
+							<description/>
+							<creator uid='8727684d5d11b608d4e6ebe971c03e8e'/>
+							<feature />
+							<actor />
+							<tasks>
+								<task uid='3'>
+									<estimation>0.0</estimation>
+									<type/>
+									<state>2</state>
+									<rank>1</rank>
+									<creationDate>2012-08-15 14:18:31</creationDate>
+									<inProgressDate>2012-08-15 14:18:44</inProgressDate>
+									<doneDate>2012-08-15 14:18:46</doneDate>
+									<blocked>false</blocked>
+									<color>yellow</color>
+									<name><![CDATA[Task done]]></name>
+									<description/>
+									<notes/>
+									<creator uid='8727684d5d11b608d4e6ebe971c03e8e'/>
+									<responsible uid='8727684d5d11b608d4e6ebe971c03e8e'/>
+									<attachments/>
+								</task>
+							</tasks>
+							<comments/>
+							<activities>
+
+								<activity id='5'>
+									<dateCreated>2012-08-15 14:16:34</dateCreated>
+									<posterId>1</posterId>
+									<posterClass>org.icescrum.core.domain.User</posterClass>
+									<code>save</code>
+									<cachedLabel><![CDATA[Story Closed]]></cachedLabel>
+									<cachedDescription/>
+								</activity>
+
+								<activity id='6'>
+									<dateCreated>2012-08-15 14:17:04</dateCreated>
+									<posterId>1</posterId>
+									<posterClass>org.icescrum.core.domain.User</posterClass>
+									<code>acceptAs</code>
+									<cachedLabel><![CDATA[Story Closed]]></cachedLabel>
+									<cachedDescription/>
+								</activity>
+
+								<activity id='10'>
+									<dateCreated>2012-08-15 14:17:19</dateCreated>
+									<posterId>1</posterId>
+									<posterClass>org.icescrum.core.domain.User</posterClass>
+									<code>update</code>
+									<cachedLabel><![CDATA[Story Closed]]></cachedLabel>
+									<cachedDescription/>
+								</activity>
+
+								<activity id='18'>
+									<dateCreated>2012-08-15 14:18:54</dateCreated>
+									<posterId>1</posterId>
+									<posterClass>org.icescrum.core.domain.User</posterClass>
+									<code>done</code>
+									<cachedLabel><![CDATA[Story Closed]]></cachedLabel>
+									<cachedDescription/>
+								</activity>
+							</activities>
+							<acceptanceTests/>
+							<attachments/>
+						</story>
+					</stories>
+					<cliches>
+						<cliche id='2'>
+							<datePrise>2012-08-15 14:17:34</datePrise>
+							<type>2</type>
+							<data><![CDATA[<cliche><stories>2</stories><inprogressStories>1</inprogressStories><doneStories>1</doneStories><tasks>3</tasks><waitTasks>1</waitTasks><inprogressTasks>1</inprogressTasks><doneTasks>1</doneTasks><sprintTasks>1</sprintTasks><recurrentTasks>1</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>2</storyTasks><remainingHours>16.0</remainingHours></cliche>]]></data>
+						</cliche>
+					</cliches>
+				</sprint>
+				<sprint id='4'>
+					<state>2</state>
+					<dailyWorkTime>8.0</dailyWorkTime>
+					<velocity>0.0</velocity>
+					<capacity>5.0</capacity>
+					<resource/>
+					<endDate>2012-09-11 00:00:00</endDate>
+					<startDate>2012-08-29 00:00:00</startDate>
+					<orderNumber>2</orderNumber>
+					<activationDate>2012-08-15 14:19:19</activationDate>
+					<closeDate/>
+					<lastUpdated>2012-08-15 14:19:42</lastUpdated>
+					<dateCreated>2012-08-15 14:15:24</dateCreated>
+					<retrospective/>
+					<doneDefinition/>
+					<description/>
+					<goal><![CDATA[Generated Sprint]]></goal>
+					<tasks/>
+					<stories>
+
+						<story uid='4'>
+							<state>5</state>
+							<suggestedDate>2012-08-15 14:16:29</suggestedDate>
+							<acceptedDate>2012-08-15 14:17:07</acceptedDate>
+							<estimatedDate>2012-08-15 14:17:22</estimatedDate>
+							<plannedDate>2012-08-15 14:19:09</plannedDate>
+							<inProgressDate>2012-08-15 14:19:19</inProgressDate>
+							<doneDate/>
+							<effort>5</effort>
+							<value>0</value>
+							<rank>2</rank>
+							<creationDate>2012-08-15 14:16:29</creationDate>
+							<type>0</type>
+							<executionFrequency>1</executionFrequency>
+							<name><![CDATA[Story in progress]]></name>
+							<textAs/>
+							<textICan/>
+							<textTo/>
+							<notes/>
+							<description/>
+							<creator uid='8727684d5d11b608d4e6ebe971c03e8e'/>
+							<feature />
+							<actor />
+							<tasks>
+								<task uid='4'>
+									<estimation>8.0</estimation>
+									<type/>
+									<state>0</state>
+									<rank>2</rank>
+									<creationDate>2012-08-15 14:19:37</creationDate>
+									<inProgressDate/>
+									<doneDate/>
+									<blocked>false</blocked>
+									<color>yellow</color>
+									<name><![CDATA[Task still toto]]></name>
+									<description/>
+									<notes/>
+									<creator uid='8727684d5d11b608d4e6ebe971c03e8e'/>
+									<responsible />
+									<attachments/>
+								</task>
+								<task uid='2'>
+									<estimation>8.0</estimation>
+									<type/>
+									<state>1</state>
+									<rank>1</rank>
+									<creationDate>2012-08-15 14:18:18</creationDate>
+									<inProgressDate>2012-08-15 14:19:26</inProgressDate>
+									<doneDate/>
+									<blocked>false</blocked>
+									<color>yellow</color>
+									<name><![CDATA[Task in progress]]></name>
+									<description/>
+									<notes/>
+									<creator uid='8727684d5d11b608d4e6ebe971c03e8e'/>
+									<responsible uid='8727684d5d11b608d4e6ebe971c03e8e'/>
+									<attachments/>
+								</task>
+							</tasks>
+							<comments/>
+							<activities>
+
+								<activity id='4'>
+									<dateCreated>2012-08-15 14:16:29</dateCreated>
+									<posterId>1</posterId>
+									<posterClass>org.icescrum.core.domain.User</posterClass>
+									<code>save</code>
+									<cachedLabel><![CDATA[Story in progress]]></cachedLabel>
+									<cachedDescription/>
+								</activity>
+
+								<activity id='7'>
+									<dateCreated>2012-08-15 14:17:07</dateCreated>
+									<posterId>1</posterId>
+									<posterClass>org.icescrum.core.domain.User</posterClass>
+									<code>acceptAs</code>
+									<cachedLabel><![CDATA[Story in progress]]></cachedLabel>
+									<cachedDescription/>
+								</activity>
+
+								<activity id='11'>
+									<dateCreated>2012-08-15 14:17:22</dateCreated>
+									<posterId>1</posterId>
+									<posterClass>org.icescrum.core.domain.User</posterClass>
+									<code>update</code>
+									<cachedLabel><![CDATA[Story in progress]]></cachedLabel>
+									<cachedDescription/>
+								</activity>
+							</activities>
+							<acceptanceTests/>
+							<attachments/>
+						</story>
+					</stories>
+					<cliches>
+						<cliche id='5'>
+							<datePrise>2012-08-15 14:19:19</datePrise>
+							<type>2</type>
+							<data><![CDATA[<cliche><stories>1</stories><inprogressStories>1</inprogressStories><doneStories>0</doneStories><tasks>2</tasks><waitTasks>1</waitTasks><inprogressTasks>1</inprogressTasks><doneTasks>0</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>2</storyTasks><remainingHours>16.0</remainingHours></cliche>]]></data>
+						</cliche>
+					</cliches>
+				</sprint>
+				<sprint id='5'>
+					<state>1</state>
+					<dailyWorkTime>8.0</dailyWorkTime>
+					<velocity>0.0</velocity>
+					<capacity>0.0</capacity>
+					<resource/>
+					<endDate>2012-09-25 00:00:00</endDate>
+					<startDate>2012-09-12 00:00:00</startDate>
+					<orderNumber>3</orderNumber>
+					<activationDate/>
+					<closeDate/>
+					<lastUpdated>2012-08-15 14:15:24</lastUpdated>
+					<dateCreated>2012-08-15 14:15:24</dateCreated>
+					<retrospective/>
+					<doneDefinition/>
+					<description/>
+					<goal><![CDATA[Generated Sprint]]></goal>
+					<tasks/>
+					<stories/>
+					<cliches/>
+				</sprint>
+				<sprint id='6'>
+					<state>1</state>
+					<dailyWorkTime>8.0</dailyWorkTime>
+					<velocity>0.0</velocity>
+					<capacity>0.0</capacity>
+					<resource/>
+					<endDate>2012-10-09 00:00:00</endDate>
+					<startDate>2012-09-26 00:00:00</startDate>
+					<orderNumber>4</orderNumber>
+					<activationDate/>
+					<closeDate/>
+					<lastUpdated>2012-08-15 14:15:24</lastUpdated>
+					<dateCreated>2012-08-15 14:15:24</dateCreated>
+					<retrospective/>
+					<doneDefinition/>
+					<description/>
+					<goal><![CDATA[Generated Sprint]]></goal>
+					<tasks/>
+					<stories/>
+					<cliches/>
+				</sprint>
+				<sprint id='7'>
+					<state>1</state>
+					<dailyWorkTime>8.0</dailyWorkTime>
+					<velocity>0.0</velocity>
+					<capacity>0.0</capacity>
+					<resource/>
+					<endDate>2012-10-23 00:00:00</endDate>
+					<startDate>2012-10-10 00:00:00</startDate>
+					<orderNumber>5</orderNumber>
+					<activationDate/>
+					<closeDate/>
+					<lastUpdated>2012-08-15 14:15:24</lastUpdated>
+					<dateCreated>2012-08-15 14:15:24</dateCreated>
+					<retrospective/>
+					<doneDefinition/>
+					<description/>
+					<goal><![CDATA[Generated Sprint]]></goal>
+					<tasks/>
+					<stories/>
+					<cliches/>
+				</sprint>
+				<sprint id='8'>
+					<state>1</state>
+					<dailyWorkTime>8.0</dailyWorkTime>
+					<velocity>0.0</velocity>
+					<capacity>0.0</capacity>
+					<resource/>
+					<endDate>2012-11-05 23:00:00</endDate>
+					<startDate>2012-10-24 00:00:00</startDate>
+					<orderNumber>6</orderNumber>
+					<activationDate/>
+					<closeDate/>
+					<lastUpdated>2012-08-15 14:15:24</lastUpdated>
+					<dateCreated>2012-08-15 14:15:24</dateCreated>
+					<retrospective/>
+					<doneDefinition/>
+					<description/>
+					<goal><![CDATA[Generated Sprint]]></goal>
+					<tasks/>
+					<stories/>
+					<cliches/>
+				</sprint>
+			</sprints>
+			<cliches>
+				<cliche id='1'>
+					<datePrise>2012-08-15 14:17:33</datePrise>
+					<type>0</type>
+					<data><![CDATA[<cliche><sprintID>R1S1</sprintID><activationDate>Wed Aug 15 14:17:33 CEST 2012</activationDate><sprintCapacity>0</sprintCapacity><functionalStoryCapacity>0</functionalStoryCapacity><technicalStoryCapacity>0</technicalStoryCapacity><defectStoryCapacity>0</defectStoryCapacity><functionalStoryBacklogPoints>15</functionalStoryBacklogPoints><technicalStoryBacklogPoints>0</technicalStoryBacklogPoints><defectStoryBacklogPoints>0</defectStoryBacklogPoints><productBacklogPoints>15</productBacklogPoints><functionalStoryProductRemainingPoints>15</functionalStoryProductRemainingPoints><technicalStoryProductRemainingPoints>0</technicalStoryProductRemainingPoints><defectStoryProductRemainingPoints>0</defectStoryProductRemainingPoints><productRemainingBacklogPoints>15</productRemainingBacklogPoints><functionalStoryReleaseRemainingPoints>0</functionalStoryReleaseRemainingPoints><technicalStoryReleaseRemainingPoints>0</technicalStoryReleaseRemainingPoints><defectStoryReleaseRemainingPoints>0</defectStoryReleaseRemainingPoints><finishedStories>0</finishedStories><inProgressStories>0</inProgressStories><plannedStories>0</plannedStories><estimatedStories>3</estimatedStories><acceptedStories>1</acceptedStories><suggestedStories>1</suggestedStories><unresolvedImpediments>0</unresolvedImpediments><sprintResources/></cliche>]]></data>
+				</cliche>
+				<cliche id='3'>
+					<datePrise>2012-08-15 14:19:09</datePrise>
+					<type>1</type>
+					<data><![CDATA[<cliche><sprintID>R1S1</sprintID><closeDate>2012-08-15 14:19:09.0</closeDate><sprintVelocity>5</sprintVelocity><functionalStoryVelocity>5</functionalStoryVelocity><technicalStoryVelocity>0</technicalStoryVelocity><defectStoryVelocity>0</defectStoryVelocity><functionalStoryBacklogPoints>15</functionalStoryBacklogPoints><technicalStoryBacklogPoints>0</technicalStoryBacklogPoints><defectStoryBacklogPoints>0</defectStoryBacklogPoints><productBacklogPoints>15</productBacklogPoints><functionalStoryProductRemainingPoints>10</functionalStoryProductRemainingPoints><technicalStoryProductRemainingPoints>0</technicalStoryProductRemainingPoints><defectStoryProductRemainingPoints>0</defectStoryProductRemainingPoints><productRemainingBacklogPoints>10</productRemainingBacklogPoints><functionalStoryReleaseRemainingPoints>5</functionalStoryReleaseRemainingPoints><technicalStoryReleaseRemainingPoints>0</technicalStoryReleaseRemainingPoints><defectStoryReleaseRemainingPoints>0</defectStoryReleaseRemainingPoints><finishedStories>1</finishedStories><inProgressStories>0</inProgressStories><plannedStories>1</plannedStories><estimatedStories>1</estimatedStories><acceptedStories>1</acceptedStories><suggestedStories>1</suggestedStories><unresolvedImpediments>0</unresolvedImpediments><sprintResources/></cliche>]]></data>
+				</cliche>
+				<cliche id='4'>
+					<datePrise>2012-08-15 14:19:19</datePrise>
+					<type>0</type>
+					<data><![CDATA[<cliche><sprintID>R1S2</sprintID><activationDate>Wed Aug 15 14:19:19 CEST 2012</activationDate><sprintCapacity>5</sprintCapacity><functionalStoryCapacity>5</functionalStoryCapacity><technicalStoryCapacity>0</technicalStoryCapacity><defectStoryCapacity>0</defectStoryCapacity><functionalStoryBacklogPoints>15</functionalStoryBacklogPoints><technicalStoryBacklogPoints>0</technicalStoryBacklogPoints><defectStoryBacklogPoints>0</defectStoryBacklogPoints><productBacklogPoints>15</productBacklogPoints><functionalStoryProductRemainingPoints>10</functionalStoryProductRemainingPoints><technicalStoryProductRemainingPoints>0</technicalStoryProductRemainingPoints><defectStoryProductRemainingPoints>0</defectStoryProductRemainingPoints><productRemainingBacklogPoints>10</productRemainingBacklogPoints><functionalStoryReleaseRemainingPoints>5</functionalStoryReleaseRemainingPoints><technicalStoryReleaseRemainingPoints>0</technicalStoryReleaseRemainingPoints><defectStoryReleaseRemainingPoints>0</defectStoryReleaseRemainingPoints><finishedStories>1</finishedStories><inProgressStories>1</inProgressStories><plannedStories>0</plannedStories><estimatedStories>1</estimatedStories><acceptedStories>1</acceptedStories><suggestedStories>1</suggestedStories><unresolvedImpediments>0</unresolvedImpediments><sprintResources/></cliche>]]></data>
+				</cliche>
+			</cliches>
+		</release>
+	</releases>
+	<actors>
+		<actor uid='1'>
+			<instances>0</instances>
+			<expertnessLevel>0</expertnessLevel>
+			<useFrequency>0</useFrequency>
+			<creationDate>2012-08-15 14:16:57</creationDate>
+			<name><![CDATA[Test Actor 1]]></name>
+			<satisfactionCriteria/>
+			<notes/>
+			<description/>
+			<stories/>
+			<attachments/>
+		</actor>
+	</actors>
+	<features>
+		<feature uid='1'>
+			<color>blue</color>
+			<value>0</value>
+			<type>0</type>
+			<rank>1</rank>
+			<creationDate>2012-08-15 14:16:45</creationDate>
+			<name><![CDATA[Test Feature 1]]></name>
+			<notes/>
+			<description/>
+			<stories/>
+			<attachments/>
+		</feature>
+	</features>
+	<stories>
+
+		<story uid='3'>
+			<state>3</state>
+			<suggestedDate>2012-08-15 14:16:22</suggestedDate>
+			<acceptedDate>2012-08-15 14:17:09</acceptedDate>
+			<estimatedDate>2012-08-15 14:17:24</estimatedDate>
+			<plannedDate/>
+			<inProgressDate/>
+			<doneDate/>
+			<effort>5</effort>
+			<value>0</value>
+			<rank>2</rank>
+			<creationDate>2012-08-15 14:16:22</creationDate>
+			<type>0</type>
+			<executionFrequency>1</executionFrequency>
+			<name><![CDATA[Test Story Estimated]]></name>
+			<textAs/>
+			<textICan/>
+			<textTo/>
+			<notes/>
+			<description/>
+			<creator uid='8727684d5d11b608d4e6ebe971c03e8e'/>
+			<feature />
+			<actor />
+			<tasks/>
+			<comments/>
+			<activities>
+
+				<activity id='3'>
+					<dateCreated>2012-08-15 14:16:22</dateCreated>
+					<posterId>1</posterId>
+					<posterClass>org.icescrum.core.domain.User</posterClass>
+					<code>save</code>
+					<cachedLabel><![CDATA[Test Story Estimated]]></cachedLabel>
+					<cachedDescription/>
+				</activity>
+
+				<activity id='8'>
+					<dateCreated>2012-08-15 14:17:09</dateCreated>
+					<posterId>1</posterId>
+					<posterClass>org.icescrum.core.domain.User</posterClass>
+					<code>acceptAs</code>
+					<cachedLabel><![CDATA[Test Story Estimated]]></cachedLabel>
+					<cachedDescription/>
+				</activity>
+
+				<activity id='12'>
+					<dateCreated>2012-08-15 14:17:24</dateCreated>
+					<posterId>1</posterId>
+					<posterClass>org.icescrum.core.domain.User</posterClass>
+					<code>update</code>
+					<cachedLabel><![CDATA[Test Story Estimated]]></cachedLabel>
+					<cachedDescription/>
+				</activity>
+			</activities>
+			<acceptanceTests/>
+			<attachments/>
+		</story>
+
+		<story uid='2'>
+			<state>2</state>
+			<suggestedDate>2012-08-15 14:16:14</suggestedDate>
+			<acceptedDate>2012-08-15 14:17:11</acceptedDate>
+			<estimatedDate/>
+			<plannedDate/>
+			<inProgressDate/>
+			<doneDate/>
+			<effort/>
+			<value>0</value>
+			<rank>3</rank>
+			<creationDate>2012-08-15 14:16:14</creationDate>
+			<type>0</type>
+			<executionFrequency>1</executionFrequency>
+			<name><![CDATA[Test Story not estimated]]></name>
+			<textAs/>
+			<textICan/>
+			<textTo/>
+			<notes/>
+			<description/>
+			<creator uid='8727684d5d11b608d4e6ebe971c03e8e'/>
+			<feature />
+			<actor />
+			<tasks/>
+			<comments/>
+			<activities>
+
+				<activity id='2'>
+					<dateCreated>2012-08-15 14:16:14</dateCreated>
+					<posterId>1</posterId>
+					<posterClass>org.icescrum.core.domain.User</posterClass>
+					<code>save</code>
+					<cachedLabel><![CDATA[Test Story not estimated]]></cachedLabel>
+					<cachedDescription/>
+				</activity>
+
+				<activity id='9'>
+					<dateCreated>2012-08-15 14:17:11</dateCreated>
+					<posterId>1</posterId>
+					<posterClass>org.icescrum.core.domain.User</posterClass>
+					<code>acceptAs</code>
+					<cachedLabel><![CDATA[Test Story not estimated]]></cachedLabel>
+					<cachedDescription/>
+				</activity>
+			</activities>
+			<acceptanceTests/>
+			<attachments/>
+		</story>
+
+		<story uid='1'>
+			<state>1</state>
+			<suggestedDate>2012-08-15 14:16:04</suggestedDate>
+			<acceptedDate/>
+			<estimatedDate/>
+			<plannedDate/>
+			<inProgressDate/>
+			<doneDate/>
+			<effort/>
+			<value>0</value>
+			<rank>0</rank>
+			<creationDate>2012-08-15 14:16:04</creationDate>
+			<type>3</type>
+			<executionFrequency>1</executionFrequency>
+			<name><![CDATA[Test Story Sandbox]]></name>
+			<textAs/>
+			<textICan/>
+			<textTo/>
+			<notes/>
+			<description/>
+			<creator uid='8727684d5d11b608d4e6ebe971c03e8e'/>
+			<feature />
+			<actor />
+			<tasks/>
+			<comments/>
+			<activities>
+
+				<activity id='1'>
+					<dateCreated>2012-08-15 14:16:04</dateCreated>
+					<posterId>1</posterId>
+					<posterClass>org.icescrum.core.domain.User</posterClass>
+					<code>save</code>
+					<cachedLabel><![CDATA[Test Story Sandbox]]></cachedLabel>
+					<cachedDescription/>
+				</activity>
+			</activities>
+			<acceptanceTests/>
+			<attachments/>
+		</story>
+	</stories>
+	<cliches/>
+	<productOwners>
+		<user uid='8727684d5d11b608d4e6ebe971c03e8e'>
+			<id>1</id>
+			<username>admin</username>
+			<password>3e6b337110b9b5758380e9e44850f9fd6ad16f29da8655ab7ea52022015bf448</password>
+			<email>admin@icescrum.com</email>
+			<dateCreated>2012-08-15 13:53:37</dateCreated>
+			<enabled>true</enabled>
+			<accountExpired>false</accountExpired>
+			<accountLocked>false</accountLocked>
+			<passwordExpired>false</passwordExpired>
+			<accountExternal>false</accountExternal>
+			<lastName><![CDATA[Admin]]></lastName>
+			<firstName><![CDATA[--]]></firstName>
+			<preferences>
+				<language>en</language>
+				<activity></activity>
+				<filterTask>allTasks</filterTask>
+				<menu>[project:1, sprintPlan:6, releasePlan:5, backlog:3, sandbox:2, timeline:4]</menu>
+				<menuHidden>[feature:2, actor:1]</menuHidden>
+				<hideDoneState>false</hideDoneState>
+			</preferences>
+			<teams>
+				<team uid='924dfd58eff48db66877abf2924e11c6'/>
+			</teams>
+		</user>
+	</productOwners>
+</product>
+</export>
